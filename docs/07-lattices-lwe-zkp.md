@@ -120,3 +120,19 @@ A convincing verifier test suite includes:
 - [ ] Recovered errors satisfy all bounds.
 - [ ] Real verifier or exact local copy accepts the result.
 - [ ] Negative controls fail.
+
+## Guided practice
+
+### Lattices
+
+1. **Learn:** follow the progressive vector, Gram–Schmidt, reduction, and cryptanalysis challenges in [CryptoHack Lattices](https://cryptohack.org/challenges/post-quantum/).
+2. **Build:** create one tiny LLL or closest-vector example where every basis coordinate and scale comes from a written bound.
+3. **Prove:** substitute the result into every original equation and test every error bound.
+
+### Zero-knowledge proofs
+
+1. **Learn:** use [CryptoHack Zero-Knowledge Proofs](https://cryptohack.org/challenges/zkp/) to study statement/witness relations, completeness, soundness, transcript reuse, and Fiat–Shamir binding.
+2. **Build:** write a small local verifier with one valid transcript and at least two invalid controls.
+3. **Prove:** require the intended statement to pass while a changed statement, response, or group element fails.
+
+Continue with [Stages 7–8 of the guided learning path](10-guided-learning-path.md#stage-7--lattices-and-bounded-error-models).

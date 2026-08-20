@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Scope-Authorized_CTFs_only-0D1117?style=for-the-badge&labelColor=00B37A" alt="Authorized CTFs only" />
   <img src="https://img.shields.io/badge/Method-Evidence_First-0D1117?style=for-the-badge&labelColor=00B37A" alt="Evidence first" />
   <img src="https://img.shields.io/badge/Output-Reproducible_Proof-0D1117?style=for-the-badge&labelColor=00B37A" alt="Reproducible proof" />
-  <img src="https://img.shields.io/badge/Chapters-10-0D1117?style=for-the-badge&labelColor=00B37A" alt="Ten chapters" />
+  <img src="https://img.shields.io/badge/Chapters-11-0D1117?style=for-the-badge&labelColor=00B37A" alt="Eleven chapters" />
 </p>
 
 <p align="center">
@@ -79,6 +79,7 @@ The goal is not merely to recover a flag. The goal is to produce a solution that
 | [07 — Lattices, LWE & ZKP](docs/07-lattices-lwe-zkp.md) | Model-first use of LLL/CVP and proof-verifier auditing |
 | [08 — Toolkit](docs/08-toolkit.md) | A clean local environment and rules for choosing tools |
 | [09 — Field cheatsheet](docs/09-cheatsheet.md) | Equations, commands, triage questions, and proof checklist |
+| [10 — Guided learning path](docs/10-guided-learning-path.md) | A clear CryptoHack, Cryptopals, NIST, and RFC study route |
 
 ## `./learning_path --progressive`
 
@@ -98,7 +99,7 @@ The goal is not merely to recover a flag. The goal is to produce a solution that
     </td>
     <td width="33%" valign="top">
       <h3>🔴 Advanced</h3>
-      <p><strong>Read:</strong> 07 → 08 → 09</p>
+      <p><strong>Read:</strong> 07 → 08 → 09 → 10</p>
       <p>Construct bounded lattice/constraint models and audit what proof verifiers truly enforce.</p>
       <code>Goal: produce a proof</code>
     </td>
