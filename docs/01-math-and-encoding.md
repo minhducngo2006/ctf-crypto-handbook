@@ -166,3 +166,11 @@ When output is shifted, nearly correct, or library-dependent, verify:
 - [ ] signature encoding: raw pair, ASN.1 DER, or JSON;
 - [ ] hash field order and separators;
 - [ ] modulo reduction and centered representatives.
+
+## Guided practice
+
+1. **Learn:** complete the encoding/XOR portion of [CryptoHack Introduction](https://cryptohack.org/courses/intro/), then study [CryptoHack Modular Arithmetic](https://cryptohack.org/courses/modular/).
+2. **Build:** implement fixed-length byte/integer round trips, verified modular inverse, generalized CRT, and exact roots.
+3. **Prove:** keep assertions for every inverse, congruence, root, and fixed-length conversion.
+
+Continue with [Stage 1–2 of the guided learning path](10-guided-learning-path.md#stage-1--encoding-xor-and-classical-structure).

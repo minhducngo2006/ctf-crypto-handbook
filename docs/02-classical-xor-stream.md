@@ -119,3 +119,11 @@ Bit order is a frequent trap: MSB-first and LSB-first streams can look like unre
 - Repeating-key length chosen only because it gives a nice output.
 - A known flag prefix applied at an arbitrary offset.
 - LFSR state that predicts training bits but fails held-out output.
+
+## Guided practice
+
+1. **Learn:** use [CryptoHack Introduction](https://cryptohack.org/courses/intro/) to review encoding and XOR properties.
+2. **Build:** complete the conversion and XOR progression in [Cryptopals Set 1](https://cryptopals.com/sets/1) with local tests.
+3. **Prove:** reapply the recovered key or keystream and require an exact match with every supplied ciphertext byte.
+
+Do not use English scoring as the only verifier. See [Stage 1 of the guided learning path](10-guided-learning-path.md#stage-1--encoding-xor-and-classical-structure).

@@ -154,3 +154,12 @@ PKCS#1 v1.5, OAEP, and custom padding change the message representative. Common 
 - [ ] Recovered `m` satisfies every ciphertext congruence.
 - [ ] Padding/serialization is parsed separately.
 - [ ] Final bytes round-trip to the same integer.
+
+## Guided practice
+
+1. **Learn:** work through [CryptoHack Public-Key Cryptography](https://cryptohack.org/courses/public-key/) and keep the RSA equations beside your solver.
+2. **Build:** use [Cryptopals Set 5](https://cryptopals.com/sets/5) for implementation and broadcast relations; approach [Set 6](https://cryptopals.com/sets/6) only after the padding/oracle model is explicit.
+3. **Check the format:** consult [RFC 8017](https://www.rfc-editor.org/rfc/rfc8017.html) for RSA primitives and PKCS #1 encoding schemes.
+4. **Prove:** multiply factors back to `n`, replay every ciphertext equation, and parse encoded messages separately.
+
+See [Stage 5 of the guided learning path](10-guided-learning-path.md#stage-5--rsa-and-public-key-relations).

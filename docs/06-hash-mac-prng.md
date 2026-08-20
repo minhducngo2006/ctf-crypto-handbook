@@ -136,3 +136,12 @@ Use Z3, GF(2), or lattices only when the equations and bounds support them. Do n
 - [ ] Recovered state reproduces all observations.
 - [ ] At least one held-out value is predicted correctly.
 - [ ] No conclusion relies solely on a readable output.
+
+## Guided practice
+
+1. **Learn:** use [CryptoHack Hash Functions](https://cryptohack.org/challenges/hashes/) to connect pre-image, second-preimage, collision, and length-extension concepts to challenges.
+2. **Build:** use [Cryptopals Set 3](https://cryptopals.com/sets/3) for MT19937 and [Set 4](https://cryptopals.com/sets/4) for controlled MAC and length-extension exercises.
+3. **Check the construction:** consult [NIST FIPS 180-4](https://csrc.nist.gov/pubs/fips/180-4/upd1/final) for SHA definitions and [RFC 2104](https://www.rfc-editor.org/rfc/rfc2104.html) for HMAC.
+4. **Prove:** reproduce all known digests/outputs, predict a held-out value, and include negative MAC tests.
+
+See [Stage 4 of the guided learning path](10-guided-learning-path.md#stage-4--hashes-macs-and-generators).

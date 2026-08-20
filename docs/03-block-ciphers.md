@@ -128,3 +128,12 @@ assert recovered == plaintext
 | Targeted CBC block correct but parser rejects | damaged preceding block, padding, or MAC |
 | CTR recovery shifts after one block | counter width/start/endian |
 | Local decryption works but service rejects | tag/AAD/framing mismatch |
+
+## Guided practice
+
+1. **Learn:** follow [CryptoHack Symmetric Cryptography](https://cryptohack.org/courses/symmetric/) to separate AES from its modes and common misuse.
+2. **Build:** implement and test the relevant exercises in [Cryptopals Set 2](https://cryptopals.com/sets/2), then use [Set 3](https://cryptopals.com/sets/3) for CTR and harder mode behavior.
+3. **Check definitions:** use [NIST SP 800-38A](https://csrc.nist.gov/pubs/sp/800/38/a/final) for ECB/CBC/CFB/OFB/CTR and [NIST IR 8459](https://csrc.nist.gov/pubs/ir/8459/final) for the newer review of the SP 800-38 series.
+4. **Prove:** require local round trips, exact parser behavior, and negative tests for a changed IV, nonce, tag, padding byte, or AAD field.
+
+See [Stage 3 of the guided learning path](10-guided-learning-path.md#stage-3--aes-and-block-cipher-modes).

@@ -129,3 +129,12 @@ Create both positive and negative tests. A verifier that accepts your intended o
 - [ ] Recovered private key satisfies `d*G=Q`.
 - [ ] Every original signature verifies.
 - [ ] Forgery, if relevant, passes the real verifier and negative controls fail.
+
+## Guided practice
+
+1. **Learn:** complete [CryptoHack Elliptic Curves](https://cryptohack.org/courses/elliptic/) before moving into advanced invalid-curve or biased-nonce problems.
+2. **Build:** use selected DSA exercises in [Cryptopals Set 6](https://cryptopals.com/sets/6); treat [Set 8](https://cryptopals.com/sets/8) as advanced material.
+3. **Check the standard:** use [NIST FIPS 186-5](https://csrc.nist.gov/pubs/fips/186-5/final) for digital signatures and [RFC 6979](https://www.rfc-editor.org/rfc/rfc6979.html) for deterministic DSA/ECDSA nonce generation.
+4. **Prove:** validate points and subgroups, require `d*G == Q`, and verify every signature using the exact transcript encoding.
+
+See [Stage 6 of the guided learning path](10-guided-learning-path.md#stage-6--elliptic-curves-and-signatures).
