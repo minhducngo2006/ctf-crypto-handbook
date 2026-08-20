@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">CTF Crypto Operator Console</title>
+  <desc id="desc">A dark terminal dashboard showing the evidence-first cryptanalysis workflow.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07110d"/>
+      <stop offset="1" stop-color="#0d1f18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff88"/>
+      <stop offset="1" stop-color="#00b8d4"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="18" fill="#050807"/>
+  <rect x="1" y="1" width="1198" height="328" rx="17" fill="none" stroke="#164b38" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="44" rx="17" fill="#0c1712"/>
+  <path d="M1 44H1199" stroke="#164b38"/>
+  <circle cx="25" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="47" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="69" cy="22" r="6" fill="#28c840"/>
+  <text x="600" y="28" text-anchor="middle" fill="#8aa79a" font-family="monospace" font-size="14">undertaker@ctf: ~/crypto-handbook</text>
+
+  <text x="35" y="78" fill="#00ff88" font-family="monospace" font-weight="700" font-size="18">$ ./triage --evidence-first</text>
+  <text x="35" y="105" fill="#8aa79a" font-family="monospace" font-size="14">[+] scope verified   [+] parser exact   [+] equations reconstructed</text>
+
+  <g transform="translate(35 132)">
+    <rect width="205" height="115" rx="12" fill="url(#panel)" stroke="#216e4f"/>
+    <text x="18" y="31" fill="#00ff88" font-family="monospace" font-weight="700" font-size="16">01 / OBSERVE</text>
+    <text x="18" y="58" fill="#c9d1d9" font-family="monospace" font-size="13">bytes • source • bounds</text>
+    <text x="18" y="82" fill="#6f8d80" font-family="monospace" font-size="12">FACTS, not assumptions</text>
+  </g>
+  <path d="M250 190H280" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M273 184L281 190L273 196" fill="none" stroke="#00ff88" stroke-width="3"/>
+
+  <g transform="translate(290 132)">
+    <rect width="205" height="115" rx="12" fill="url(#panel)" stroke="#216e4f"/>
+    <text x="18" y="31" fill="#00ff88" font-family="monospace" font-weight="700" font-size="16">02 / MODEL</text>
+    <text x="18" y="58" fill="#c9d1d9" font-family="monospace" font-size="13">equations • encoding</text>
+    <text x="18" y="82" fill="#6f8d80" font-family="monospace" font-size="12">one falsifiable hypothesis</text>
+  </g>
+  <path d="M505 190H535" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M528 184L536 190L528 196" fill="none" stroke="#00ff88" stroke-width="3"/>
+
+  <g transform="translate(545 132)">
+    <rect width="205" height="115" rx="12" fill="url(#panel)" stroke="#216e4f"/>
+    <text x="18" y="31" fill="#00ff88" font-family="monospace" font-weight="700" font-size="16">03 / DERIVE</text>
+    <text x="18" y="58" fill="#c9d1d9" font-family="monospace" font-size="13">minimal • deterministic</text>
+    <text x="18" y="82" fill="#6f8d80" font-family="monospace" font-size="12">no attack-all guessing</text>
+  </g>
+  <path d="M760 190H790" stroke="url(#accent)" stroke-width="3"/>
+  <path d="M783 184L791 190L783 196" fill="none" stroke="#00ff88" stroke-width="3"/>
+
+  <g transform="translate(800 132)">
+    <rect width="205" height="115" rx="12" fill="url(#panel)" stroke="#216e4f"/>
+    <text x="18" y="31" fill="#00ff88" font-family="monospace" font-weight="700" font-size="16">04 / VERIFY</text>
+    <text x="18" y="58" fill="#c9d1d9" font-family="monospace" font-size="13">inverse • held-out • real</text>
+    <text x="18" y="82" fill="#6f8d80" font-family="monospace" font-size="12">proof before flag</text>
+  </g>
+
+  <g transform="translate(1035 117)">
+    <circle cx="64" cy="64" r="59" fill="#08140f" stroke="#00ff88" stroke-width="2" filter="url(#glow)"/>
+    <text x="64" y="53" text-anchor="middle" fill="#00ff88" font-family="monospace" font-size="13">VERDICT</text>
+    <text x="64" y="79" text-anchor="middle" fill="#e8fff6" font-family="monospace" font-weight="700" font-size="21">PROVEN</text>
+  </g>
+
+  <text x="35" y="287" fill="#00b8d4" font-family="monospace" font-size="14">crypto:// RSA • AES • XOR • ECC • HASH/MAC • PRNG • LATTICE • ZKP</text>
+  <text x="35" y="310" fill="#546e62" font-family="monospace" font-size="12">AUTHORIZED CTF/LAB SCOPE ONLY // KEEP ORIGINAL ARTIFACTS // VERIFY EVERY CLAIM</text>
+</svg>

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sage.py
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Challenge-local evidence and secrets should not enter this handbook.
+challenge/
+artifacts/
+private/
+*.pem
+*.key
+*.pcap
+*.pcapng
